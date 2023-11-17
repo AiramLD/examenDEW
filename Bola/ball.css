@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+  }
+  
+  #ball {
+    border: 1px solid rgb(202, 202, 209);
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: navy;
+  }
+  
+  svg {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+  }
+  
+  .down {
+    top: 0px;
+    left: 15px;
+  }
+  
+  .up {
+    bottom: 0px;
+    left: 15px;
+  }
+  
+  .right {
+    left: 0;
+    top: 15px;
+  }
+  
+  .left {
+    right: 0;
+    top: 15px;
+  }
